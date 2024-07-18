@@ -1,0 +1,29 @@
+GET http://localhost:3000/songs HTTP/1.1/
+
+###
+
+GET http://localhost:3000/songs/1 HTTP/1.1/
+
+
+###
+POST http://localhost:3000/songs HTTP/1.1/
+Content-Type: application/json
+
+{
+  "name": "Fickle Game",
+  "author": "Amber Run",
+  "year": "2017"
+}
+
+###
+PUT http://localhost:3000/songs/4 HTTP/1.1/
+Content-Type: application/json
+
+{
+  "name": "Fickle Game",
+  "author": "Amber Run",
+  "year": "2018"
+}
+
+###
+DELETE http://localhost:3000/songs/4 HTTP/1.1/

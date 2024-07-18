@@ -1,0 +1,22 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "name": "Nomvember rain",
+      "author": "Gunds and roses",
+      "year": "1991"
+    },
+    {
+      "id": 2,
+      "name": "Thunderstruck",
+      "author": "AC / DC",
+      "year": "1990"
+    },
+    {
+      "id": 3,
+      "name": "Paradise",
+      "author": "Coldplay",
+      "year": "2011"
+    }
+  ]
+}
